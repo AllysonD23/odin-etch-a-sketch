@@ -2,35 +2,45 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    background-color: grey;
+    height: 100vh;
 }
 
 #button {
     border-color: black;
     border-style: solid;
+    border-radius: 20px;
+    padding: 20px;
     font-size: 80px;
     margin-top: 50px;
     margin-bottom: 70px;
+    background-color: pink;
 }
 
 #container {
     display: flex;
-    width: 1700px;
+    height: 960px;
+    width: 960px;
     flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.div-square,
+.black {
+    width: 100%;
+    border-color: lightgrey;
+    border-style: solid;
+    border-width: 1px;
 }
 
 .div-square {
-    width: 100px;
-    height: 100px;
-    border: 1px;
-    border-color: black;
-    border-style: solid;
+    background-color: white;
 }
 
 .black {
     background-color: black;
-    width: 100px;
-    height: 100px;
-    border: 1px;
-    border-color: black;
-    border-style: solid;
+}
+
+.first {
+    display: flex;
 }
